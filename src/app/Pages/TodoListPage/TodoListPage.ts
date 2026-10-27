@@ -13,7 +13,6 @@ import {TodoJsonService} from '../../todo-json-service';
   ],
   styleUrl: './TodoListPage.css',
   templateUrl: './TodoListPage.html',
-  providers: [{ provide: TODO_SERVICE, useClass: TodoJsonService }]
 })
 export class TodoListPage {
   private route = inject(ActivatedRoute);
