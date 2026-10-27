@@ -1,0 +1,8 @@
+<div class="todo-details">
+  @if (todo() == null) {
+    <p>No todo item has been selected.</p>
+  } @else {
+    <h2>{{ todo()!.name }} <button type="button" title="Edit Name" (click)="editName()">✏️</button></h2>
+    <p>{{ todo()!.description }}</p>
+  }
+</div>

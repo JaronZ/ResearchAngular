@@ -1,0 +1,13 @@
+.todo-details {
+  border: 0 solid black;
+  border-left-width: 1px;
+  height: 100%;
+  padding: 10px;
+}
+
+button {
+  border: none;
+  outline: none;
+  background: transparent;
+  cursor: pointer;
+}

@@ -1,0 +1,6 @@
+.todo {
+  border: 1px solid black;
+  height: 100%;
+  display: grid;
+  grid-template-columns: 20rem 1fr;
+}

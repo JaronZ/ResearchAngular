@@ -1,0 +1,12 @@
+<div class="todo-list-title">
+  <h2>Todo Items</h2>
+  <button type="button" title="Create Item" (click)="createTodo()">➕</button>
+</div>
+<ul class="todo-list">
+  @for (todo of todos(); track todo.id) {
+    <li>
+      <a [href]="`/${todo.id}`">{{ todo.name }}</a>
+      <button type="button" title="Delete Item" (click)="deleteTodo(todo.id)">🗑️</button>
+    </li>
+  }
+</ul>

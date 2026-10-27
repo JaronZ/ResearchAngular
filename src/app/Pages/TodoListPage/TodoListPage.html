@@ -1,0 +1,4 @@
+<div class="todo">
+  <app-todo-list [(todos)]="todos" (todosChange)="onTodosChange()" />
+  <app-todo-details [(todo)]="selectedTodo" (todoChange)="onTodoChange($event)" />
+</div>

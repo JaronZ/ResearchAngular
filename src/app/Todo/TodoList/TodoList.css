@@ -1,0 +1,36 @@
+.todo-list {
+  margin: 0;
+  height: 100%;
+  list-style: none;
+  padding: 0;
+}
+
+.todo-list > li {
+  padding: 5px 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.todo-list > li:hover {
+  background-color: lightgray;
+  cursor: pointer;
+}
+
+.todo-list > li > a {
+  text-decoration: none;
+  color: black;
+  flex: 1 1 auto;
+}
+
+button {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.todo-list-title {
+  padding: 0 10px;
+  border-bottom: 1px solid lightgray;
+  display: flex;
+  justify-content: space-between;
+}
